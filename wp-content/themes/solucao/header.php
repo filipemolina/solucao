@@ -20,21 +20,35 @@
 
 <body>
 
-<div class="container-fluid">
+<!-- Menu Principal -->
+
+<div class="container-fluid menu-principal">
 	
-	<div class="row menu">
+	<div class="container">
 		
-		<ul>
-			<li>Quem Somos</li>
-			<li>Professores</li>
-			<li>Disciplinas</li>
-		</ul>
-		<a href="javascript:void(0)"><img src="<?php bloginfo('template_url'); ?>/img/menu/logo.png" alt=""></a>
-		<ul>
-			<li>Depoimentos</li>
-			<li>Contato</li>
-			<li>Blog</li>
-		</ul>
+		<div class="menu">
+			
+			<ul class="col-md-4 esquerdo">
+				<li><a href="">Quem somos</a></li>
+				<li><a href="">Professores</a></li>
+				<li><a href="">Disciplinas</a></li>
+			</ul>
+
+			<!-- Logo -->
+
+			<div class="logo col-md-4">
+				<a class="logo" href="javascript:void(0)"><img src="<?php bloginfo('template_url'); ?>/img/menu/logo.png" alt=""></a>
+			</div>
+
+			<ul class="col-md-4 direito">
+				<li><a href="">Depoimentos</a></li>
+				<li><a href="">Contato</a></li>
+				<li><a href="">Blog</a></li>
+			</ul>
+
+			<div class="clear"></div>
+
+		</div>
 
 	</div>
 
