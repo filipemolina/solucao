@@ -1,4 +1,5 @@
 <?php
+
 /** 
  * As configurações básicas do WordPress.
  *
@@ -13,6 +14,7 @@
  *
  * @package WordPress
  */
+
 
 // ** Configurações do MySQL - Você pode pegar essas informações com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
@@ -78,4 +80,5 @@ if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
 	
 /** Configura as variáveis do WordPress e arquivos inclusos. */
+
 require_once(ABSPATH . 'wp-settings.php');
