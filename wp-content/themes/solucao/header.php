@@ -30,9 +30,9 @@
 		<div class="menu">
 			
 			<ul class="col-md-4 esquerdo">
-				<li><a href="">Quem somos</a></li>
-				<li><a href="">Professores</a></li>
-				<li><a href="">Disciplinas</a></li>
+				<li><a class="fonte-azul" href="">Quem somos</a></li>
+				<li><a class="fonte-azul" href="">Professores</a></li>
+				<li><a class="fonte-azul" href="">Disciplinas</a></li>
 			</ul>
 
 			<!-- Logo -->
@@ -42,9 +42,9 @@
 			</div>
 
 			<ul class="col-md-4 direito">
-				<li><a href="">Depoimentos</a></li>
-				<li><a href="">Contato</a></li>
-				<li><a href="">Blog</a></li>
+				<li><a class="fonte-azul" href="">Depoimentos</a></li>
+				<li><a class="fonte-azul" href="">Contato</a></li>
+				<li><a class="fonte-azul" href="">Blog</a></li>
 			</ul>
 
 			<div class="clear"></div>

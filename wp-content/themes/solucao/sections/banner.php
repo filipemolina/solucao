@@ -1,4 +1,4 @@
-<div class="banner">
+<section class="banner">
 
 	<div class="container">
 		
@@ -10,4 +10,6 @@
 
 	</div>
 
-</div>
+	<div class="separador fundo-vermelho"></div>
+
+</section>
