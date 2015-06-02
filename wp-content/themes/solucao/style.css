@@ -83,12 +83,18 @@ div.titulo .linha
   	margin-top: 27px;
 }
 
-/* Sprites */
+/********************************** Sprites ****************************************/
 
 .sp-bullet
 {
 	background-image: url('img/sprite.png');
 	background-position: -244px -44px;
+}
+
+.sp-seta
+{
+	background-image: url('img/sprite.png');
+	background-position: -291px -55px;
 }
 
 /*************************************** Menu **************************************/
@@ -319,4 +325,34 @@ section.quem-somos ul.bullet li
 .dados-professor .formacao p
 {
 	font-size: 17px;
+}
+
+/*************************************** Disciplinas **************************************/
+
+section.disciplinas ul.setas
+{
+	list-style-type: none;
+  	padding: 0;
+  	margin-top: 50px;
+  	margin-bottom: 100px;
+}
+
+ul.setas li 
+{
+  	display: block;
+  	float: left;
+  	text-transform: uppercase;
+  	font-size: 20px;
+  	padding-left: 75px;
+}
+
+section.disciplinas span.seta 
+{
+    display: block;
+	width: 8px;
+	height: 17px;
+	float: left;
+	margin-top: 4px;
+	margin-right: 8px;
+	background-size: 383px 178px;
 }
