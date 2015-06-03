@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
+  <title>Solução Apoio Escolar</title>
   <meta name="description" content="Solução Apoio Escolar">
   <meta name="author" content="3A WorldWide">
 

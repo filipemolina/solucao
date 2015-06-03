@@ -486,3 +486,89 @@ section.depoimentos
 	height: 35px;
 	width: 100%;
 }
+
+/*************************************** Mapa **************************************/
+
+section.mapa
+{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+section.mapa .info-mapa 
+{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -27%;
+	height: 450px;
+	padding: 20px;
+}
+
+.info-mapa h3 
+{
+	text-align: center;
+	font-weight: 600;
+	font-size: 19px;
+}
+
+.sp-email 
+{
+    font-family: 'Lato';
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.info-mapa .email 
+{
+    font-family: "Lato";
+}
+
+.info-mapa .conteudo 
+{
+    font-weight: 100;
+	margin-bottom: 25px;
+	font-style: italic;
+	font-size: 18px;
+}
+
+.info-mapa .titulo 
+{
+    font-weight: 700;
+  	font-size: 17px;
+}
+
+.sp-endereco 
+{
+    display: block;
+    float: left;
+    width: 14px;
+    height: 17px;
+    background-image: url('img/sprite.png');
+    background-position: -318px -42px;
+    margin-right: 5px;
+}
+
+.sp-telefone 
+{
+    display: block;
+    float: left;
+    width: 15px;
+    height: 19px;
+    background-image: url('img/contato/telefone.png');
+    background-position: 0 0;
+}
+
+.telefone .conteudo span 
+{
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.telefone span.horario 
+{
+    font-weight: 100;
+    margin-top: 14px;
+}
