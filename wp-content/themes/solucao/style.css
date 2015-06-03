@@ -118,6 +118,56 @@ div.titulo .linha
   	background-position: -317px 0;
 }
 
+.sp-3a 
+{
+	display: block;
+	margin: 0 auto;
+	width: 154px;
+	height: 16px;
+	background-image: url('img/sprite.png');
+	background-position: -225px -83px;
+}
+
+.sp-facebook
+{
+	display: block;
+	float: left;
+	width: 30px;
+	height: 30px;
+	background-image: url('img/sprite.png');
+	background-position: 0px -71px;
+}
+
+.sp-twitter
+{
+	display: block;
+	float: left;
+	width: 30px;
+	height: 30px;
+	background-image: url('img/sprite.png');
+	background-position: -67px -72px;
+}
+
+.sp-youtube
+{
+	display: block;
+	float: left;
+	width: 30px;
+	height: 30px;
+	background-image: url('img/sprite.png');
+	background-position: -33px -72px;
+}
+
+.sp-instagram
+{
+	display: block;
+	float: left;
+	width: 30px;
+	height: 30px;
+	background-image: url('img/sprite.png');
+	background-position: -100px -72px;
+}
+
 /*************************************** Menu **************************************/
 
 .menu-principal
@@ -264,6 +314,13 @@ section.quem-somos ul.bullet li
 
 /*************************************** Professores **************************************/
 
+section.professores
+{
+	float: left;
+	display: block;
+	width: 100%;
+}
+
 .professor 
 {
   padding: 0;
@@ -347,6 +404,13 @@ section.quem-somos ul.bullet li
 }
 
 /*************************************** Disciplinas **************************************/
+
+section.disciplinas
+{
+	display: block;
+	float: left;
+	width: 100%;
+}
 
 section.disciplinas ul.setas
 {
@@ -571,7 +635,14 @@ section.mapa .info-mapa
     margin-top: 14px;
 }
 
-/*************************************** Mapa **************************************/
+/*************************************** Contato **************************************/
+
+section.contato
+{
+	display: block;
+	float: left;
+	width: 100%;
+}
 
 section.contato h2 
 {
@@ -582,8 +653,6 @@ section.contato h2
     float: left;
     width: 100%;
 }
-
-/*************************************** Contato **************************************/
 
 section.contato textarea 
 {
@@ -624,4 +693,16 @@ span.wpcf7-not-valid-tip
 .screen-reader-response ul 
 {
     display: none;
+}
+
+/*************************************** Footer **************************************/
+
+section.footer
+{
+	padding: 20px 0;
+}
+
+.footer a 
+{
+  margin-right: 5px;
 }
