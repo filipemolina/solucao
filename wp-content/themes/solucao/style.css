@@ -13,7 +13,7 @@ html, body
 .delay-1 { -webkit-animation-delay: 0.3s; animation-delay: 0.2s; }
 .delay-2 { -webkit-animation-delay: 0.6s; animation-delay: 0.4s;}
 
-/* Cores */
+/*********************************** Cores *****************************************/
 
 .fonte-azul { color: #3e4095; }
 .fonte-vermelha { color: #dc3236; }
@@ -23,8 +23,9 @@ html, body
 
 .fundo-vermelho { background-color: #dc3236; }
 .fundo-branco { background-color: #fff; }
+.fundo-roxo { background-color: #202151; }
 
-/* Fontes */
+/********************************* Fontes ******************************************/
 
 .lato-light
 {
@@ -69,7 +70,7 @@ div.titulo .linha
 	margin: 0 auto;
 }
 
-/* Subtítulos */
+/*********************************** Subtítulos ***************************************/
 
 .sub-titulo .texto 
 {
@@ -113,8 +114,8 @@ div.titulo .linha
   	background-image: url('img/sprite.png');
   	height: 25px;
   	width: 35px;
-  	float: right;
-  	background-position: -271px 0;
+  	float: left;
+  	background-position: -317px 0;
 }
 
 /*************************************** Menu **************************************/
@@ -387,6 +388,7 @@ section.depoimentos
   	background-image: url('img/depoimentos/fundo.png');
   	background-repeat: no-repeat;
   	background-size: auto 100%;
+  	position: relative;
 }
 
 .depoimentos .slider { position: relative; overflow: auto; }
@@ -407,7 +409,7 @@ section.depoimentos
 	position: absolute;
 	left: 0;
 	right: 0;
-	bottom: 20px;
+	bottom: 40px;
 	text-align: center;
 	margin-left: -30px;
 }
@@ -444,4 +446,43 @@ section.depoimentos
     color: #fff;
     font-style: italic;
     text-align: center;
+}
+
+.depoimentos .nome 
+{
+    text-align: center;
+    color: #fff;
+    margin-top: 35px;
+    font-family: 'Georgia';
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.depoimentos .indentificacao 
+{
+    text-align: center;    color: #fff;        
+    font-family: 'Lato';        
+    font-size: 13px;    
+    font-weight: 600;
+}
+
+.depoimentos .separador
+{
+	height: 40px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.depoimentos .separador .fundo-vermelho
+{
+	height: 5px;
+	width: 100%;
+}
+
+.depoimentos .separador .fundo-roxo
+{
+	height: 35px;
+	width: 100%;
 }
