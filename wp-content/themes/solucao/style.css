@@ -25,7 +25,10 @@ html, body
 .fundo-branco { background-color: #fff; }
 
 /* Fontes */
-
+.title-blog{
+	font-size: 42px;
+	text-align: center;
+}
 .lato-light
 {
 	font-family: 'Lato';
