@@ -13,7 +13,7 @@ html, body
 .delay-1 { -webkit-animation-delay: 0.3s; animation-delay: 0.2s; }
 .delay-2 { -webkit-animation-delay: 0.6s; animation-delay: 0.4s;}
 
-/* Cores */
+/*********************************** Cores *****************************************/
 
 .fonte-azul { color: #3e4095; }
 .fonte-vermelha { color: #dc3236; }
@@ -23,12 +23,17 @@ html, body
 
 .fundo-vermelho { background-color: #dc3236; }
 .fundo-branco { background-color: #fff; }
+.fundo-roxo { background-color: #202151; }
 
 /* Fontes */
 .title-blog{
 	font-size: 42px;
 	text-align: center;
 }
+
+/********************************* Fontes ******************************************/
+
+
 .lato-light
 {
 	font-family: 'Lato';
@@ -72,7 +77,7 @@ div.titulo .linha
 	margin: 0 auto;
 }
 
-/* Subtítulos */
+/*********************************** Subtítulos ***************************************/
 
 .sub-titulo .texto 
 {
@@ -116,13 +121,61 @@ div.titulo .linha
   	background-image: url('img/sprite.png');
   	height: 25px;
   	width: 35px;
-  	float: right;
-  	background-position: -271px 0;
+  	float: left;
+  	background-position: -317px 0;
+}
+
+.sp-3a 
+{
+	display: block;
+	margin: 0 auto;
+	width: 154px;
+	height: 16px;
+	background-image: url('img/sprite.png');
+	background-position: -225px -83px;
+}
+
+.sp-facebook
+{
+	display: block;
+	float: left;
+	width: 30px;
+	height: 30px;
+	background-image: url('img/sprite.png');
+	background-position: 0px -71px;
+}
+
+.sp-twitter
+{
+	display: block;
+	float: left;
+	width: 30px;
+	height: 30px;
+	background-image: url('img/sprite.png');
+	background-position: -67px -72px;
+}
+
+.sp-youtube
+{
+	display: block;
+	float: left;
+	width: 30px;
+	height: 30px;
+	background-image: url('img/sprite.png');
+	background-position: -33px -72px;
+}
+
+.sp-instagram
+{
+	display: block;
+	float: left;
+	width: 30px;
+	height: 30px;
+	background-image: url('img/sprite.png');
+	background-position: -100px -72px;
 }
 
 /*************************************** Menu **************************************/
-
-/* Geral */
 
 .menu-principal
 {
@@ -268,6 +321,13 @@ section.quem-somos ul.bullet li
 
 /*************************************** Professores **************************************/
 
+section.professores
+{
+	float: left;
+	display: block;
+	width: 100%;
+}
+
 .professor 
 {
   padding: 0;
@@ -352,6 +412,13 @@ section.quem-somos ul.bullet li
 
 /*************************************** Disciplinas **************************************/
 
+section.disciplinas
+{
+	display: block;
+	float: left;
+	width: 100%;
+}
+
 section.disciplinas ul.setas
 {
 	list-style-type: none;
@@ -390,6 +457,7 @@ section.depoimentos
   	background-image: url('img/depoimentos/fundo.png');
   	background-repeat: no-repeat;
   	background-size: auto 100%;
+  	position: relative;
 }
 
 .depoimentos .slider { position: relative; overflow: auto; }
@@ -410,7 +478,7 @@ section.depoimentos
 	position: absolute;
 	left: 0;
 	right: 0;
-	bottom: 20px;
+	bottom: 40px;
 	text-align: center;
 	margin-left: -30px;
 }
@@ -447,4 +515,201 @@ section.depoimentos
     color: #fff;
     font-style: italic;
     text-align: center;
+}
+
+.depoimentos .nome 
+{
+    text-align: center;
+    color: #fff;
+    margin-top: 35px;
+    font-family: 'Georgia';
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.depoimentos .indentificacao 
+{
+    text-align: center;    color: #fff;        
+    font-family: 'Lato';        
+    font-size: 13px;    
+    font-weight: 600;
+}
+
+.depoimentos .separador
+{
+	height: 40px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.depoimentos .separador .fundo-vermelho
+{
+	height: 5px;
+	width: 100%;
+}
+
+.depoimentos .separador .fundo-roxo
+{
+	height: 35px;
+	width: 100%;
+}
+
+/*************************************** Mapa **************************************/
+
+section.mapa
+{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+section.mapa .info-mapa 
+{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -27%;
+	height: 450px;
+	padding: 20px;
+}
+
+.info-mapa h3 
+{
+	text-align: center;
+	font-weight: 600;
+	font-size: 19px;
+}
+
+.sp-email 
+{
+    font-family: 'Lato';
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.info-mapa .email 
+{
+    font-family: "Lato";
+}
+
+.info-mapa .conteudo 
+{
+    font-weight: 100;
+	margin-bottom: 25px;
+	font-style: italic;
+	font-size: 18px;
+}
+
+.info-mapa .titulo 
+{
+    font-weight: 700;
+  	font-size: 17px;
+}
+
+.sp-endereco 
+{
+    display: block;
+    float: left;
+    width: 14px;
+    height: 17px;
+    background-image: url('img/sprite.png');
+    background-position: -318px -42px;
+    margin-right: 5px;
+}
+
+.sp-telefone 
+{
+    display: block;
+    float: left;
+    width: 15px;
+    height: 19px;
+    background-image: url('img/contato/telefone.png');
+    background-position: 0 0;
+}
+
+.telefone .conteudo span 
+{
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.telefone span.horario 
+{
+    font-weight: 100;
+    margin-top: 14px;
+}
+
+/*************************************** Contato **************************************/
+
+section.contato
+{
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+section.contato h2 
+{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 35px 0;
+    float: left;
+    width: 100%;
+}
+
+section.contato textarea 
+{
+  height: 132px;
+  resize: none;
+}
+
+.contato .wpcf7-submit 
+{
+	float: right;
+	display: block;
+	background-color: #2b2e90;
+	color: #fff;
+	border: none;
+	padding: 10px 51px;
+	border-radius: 5px;
+	border-bottom: 3px solid #171a76;
+	margin-bottom: 20px;
+	font-family: "Lato";
+	font-weight: 700;
+	font-size: 18px;
+}
+
+span.wpcf7-not-valid-tip 
+{
+    color: #f00;
+}
+
+.wpcf7-response-output.wpcf7-validation-errors 
+{
+    color: #fff;
+    background-color: #f55;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.screen-reader-response ul 
+{
+    display: none;
+}
+
+/*************************************** Footer **************************************/
+
+section.footer
+{
+	padding: 20px 0;
+}
+
+.footer a 
+{
+  margin-right: 5px;
 }

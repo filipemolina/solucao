@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
+  <title>Solução Apoio Escolar</title>
   <meta name="description" content="Solução Apoio Escolar">
   <meta name="author" content="3A WorldWide">
 
@@ -30,21 +30,21 @@
 		<div class="menu">
 			
 			<ul class="col-md-4 esquerdo">
-				<li><a class="fonte-azul" href="">Quem somos</a></li>
-				<li><a class="fonte-azul" href="">Professores</a></li>
-				<li><a class="fonte-azul" href="">Disciplinas</a></li>
+				<li><a data-section="disciplinas" class="fonte-azul" href="">Disciplinas</a></li>
+				<li><a data-section="professores" class="fonte-azul" href="">Professores</a></li>
+				<li><a data-section="quem-somos" class="fonte-azul" href="">Quem somos</a></li>
 			</ul>
 
 			<!-- Logo -->
 
 			<div class="logo col-md-4">
-				<a class="logo" href="javascript:void(0)"><img src="<?php bloginfo('template_url'); ?>/img/menu/logo.png" alt=""></a>
+				<a data-section="banner" class="logo" href="javascript:void(0)"><img src="<?php bloginfo('template_url'); ?>/img/menu/logo.png" alt=""></a>
 			</div>
 
 			<ul class="col-md-4 direito">
-				<li><a class="fonte-azul" href="">Depoimentos</a></li>
-				<li><a class="fonte-azul" href="">Contato</a></li>
-				<li><a class="fonte-azul" href="">Blog</a></li>
+				<li><a data-section="depoimentos" class="fonte-azul" href="">Depoimentos</a></li>
+				<li><a data-section="mapa" class="fonte-azul" href="">Contato</a></li>
+				<li><a data-section="" class="fonte-azul" href="">Blog</a></li>
 			</ul>
 
 			<div class="clear"></div>
