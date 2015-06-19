@@ -24,12 +24,8 @@ html, body
 .fundo-vermelho { background-color: #dc3236; }
 .fundo-branco { background-color: #fff; }
 .fundo-roxo { background-color: #202151; }
-
+	
 /* Fontes */
-.title-blog{
-	font-size: 42px;
-	text-align: center;
-}
 
 /********************************* Fontes ******************************************/
 
@@ -713,3 +709,41 @@ section.footer
 {
   margin-right: 5px;
 }
+
+/*********************************** Blog ******************************************/
+
+.post-img{
+	width: 877px;
+	margin: 0 auto;
+	text-align: center;
+}
+.title-blog{
+	font-size: 42px;
+	text-align: center;
+}
+.img-do-post{
+	margin-bottom: 65px;
+}
+.leia-mais{
+  margin: 0 auto;
+  text-align: center;
+  color: #b72427;
+  padding: 15px 80px;
+  border-radius: 32px;
+  font-size: 16px;
+  border: 1px solid #b72427;
+}
+.leia-mais:hover{
+	background: #b72427;
+	color: #fff;
+	text-decoration: none;
+}
+.post-home{
+	 width: 940px;
+
+	 margin:0 auto;
+	 border-bottom: 1px solid #dddddd;
+	 padding-bottom: 65px;
+
+}
+
