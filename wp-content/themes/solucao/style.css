@@ -751,6 +751,18 @@ section.footer
 	 padding-bottom: 65px;
 
 }
-.autor{
-	
+.italico{
+	font-weight: italic;
+}
+.category{
+	width:120px;
+	background: #d33337;
+	border-radius: 16px;
+	padding: 3px 10px;
+	float: right;
+}
+.metas{
+	width: 390px;
+	margin: 0 auto;
+	padding: 20px 0;
 }

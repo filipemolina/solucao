@@ -14,15 +14,26 @@
 				               foreach($myposts as $post) :
 			                         //Escreve o Título do Post ?>
 									<?php $categorias = get_the_category(); ?>
-				                         <h2 class="lato-light title-blog fonte-azul "><?php the_title();?></h2>
-				                         <?php
-				                         echo "<span class='lato-regular fonte-cinza'>";
-				                         the_author();
-				                         echo "</span>";
-				                         the_date();
-				                         echo $categorias[0]->name;
-				                         echo "<br/>";
-				                         ?>
+				                         <h2 class="lato-light title-blog fonte-azul"><?php the_title();?></h2>
+				                         <div class="metas">
+					                         <?php
+					                         echo "<span class='lato-regular fonte-cinza'>";
+					                         the_author();
+					                         echo "</span>";
+					                         ?>
+					                        	<img src="<?php bloginfo('template_url') ?>/img/date.jpg" style="margin-left: 35px;">
+					                        <?php
+					                         echo "<span class='lato-bold fonte-cinza italico'>";
+					                         the_date();
+					                         echo "</span>";
+					                         ?>
+					                         <div class="category lato-light fonte-branca">
+						                         <?php
+						                         echo $categorias[0]->name;
+						                         echo "<br/>";
+						                         ?>
+				                         	</div>
+				                         </div>
 										<div class="post-img lato-light">
 											<div class="img-do-post">
 				                         		<img src="<?php bloginfo('template_url') ?>/img/post_img.jpg" alt="">
