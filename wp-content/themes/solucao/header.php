@@ -8,15 +8,13 @@
   <meta name="description" content="Solução Apoio Escolar">
   <meta name="author" content="3A WorldWide">
 
-  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/animate.css">
 
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
-
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+  <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/css/als_demo.css">
+  <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_url'); ?>/css/CSSreset.min.css">
 </head>
 
 <body>

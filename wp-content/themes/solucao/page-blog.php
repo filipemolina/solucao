@@ -13,9 +13,14 @@
 			                    $myposts = get_posts(); 
 				               foreach($myposts as $post) :
 			                         //Escreve o Título do Post ?>
-									
+									<?php $categorias = get_the_category(); ?>
 				                         <h2 class="lato-light title-blog fonte-azul "><?php the_title();?></h2>
 				                         <?php
+				                         echo "<span class='lato-regular fonte-cinza'>";
+				                         the_author();
+				                         echo "</span>";
+				                         the_date();
+				                         echo $categorias[0]->name;
 				                         echo "<br/>";
 				                         ?>
 										<div class="post-img lato-light">
@@ -25,12 +30,14 @@
 										<?php
 				                         //Conteúdo do Post
 									echo '<div class="post-home">';
-				         				 the_content();
+				         				// $post->the_content();
+				         				 echo apply_filters( 'the_content', $post->post_content); 
 				                         echo "<br/><br/>";
+				                         ?>
 
-				                         echo '<a href="#" class="leia-mais lato-light">LEIA MAIS</a>';
+				                        <a href="<?php the_permalink(); ?>" class="leia-mais lato-light">LEIA MAIS</a>
 			                         
-			                        echo "</div>";
+			                        <?php echo "</div>";
 			                    endforeach;
 			                     
 			                    ?>

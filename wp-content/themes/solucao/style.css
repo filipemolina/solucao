@@ -53,7 +53,7 @@ html, body
 	text-align: center;
 }
 
-/* Títulos */
+/* TÃ­tulos */
 
 div.row.titulo
 {
@@ -73,12 +73,13 @@ div.titulo .linha
 	margin: 0 auto;
 }
 
-/*********************************** Subtítulos ***************************************/
+/*********************************** SubtÃ­tulos ***************************************/
 
 .sub-titulo .texto 
 {
   	font-size: 32px;
   	float: left;
+  	margin-left: 15px;
 }
 
 .sub-titulo .linha 
@@ -193,7 +194,7 @@ div.titulo .linha
     font-family: 'Lato';
     font-weight: 400;
     font-size: 17px;
-    padding-left: 70px;
+    padding-left: 0px;
 }
 
 .menu a
@@ -218,14 +219,14 @@ div.titulo .linha
 .menu ul.esquerdo li 
 {
     float: right;
-    margin-right: 20px;
+    margin-right: 38px;
 }
 
 /* Direito */
 
 .menu ul.direito li 
 {
-    margin-right: 26px;
+    margin-right: 56px;
 }
 
 ul.direito 
@@ -298,6 +299,7 @@ section.quem-somos ul.bullet
   	list-style-type: none;
   	margin: 0;
   	padding: 0;
+  	margin-left: -17px;
 }
 
 section.quem-somos span.bullet 
@@ -313,6 +315,7 @@ section.quem-somos span.bullet
 section.quem-somos ul.bullet li 
 {
     margin-bottom: 5px;
+    float: left;
 }
 
 /*************************************** Professores **************************************/
@@ -332,7 +335,7 @@ section.professores
 
 .professor .foto 
 {
-  	height: 320px;
+  	height: 256px;
   	background-position: center;
  	background-size: 100%;
   	margin: 0 2px;
@@ -341,12 +344,13 @@ section.professores
 .professor .foto .overlay
 {
 	opacity: 0;
-	height: 320px;
+	height: 256px;
 	color: #fff;
 	
 	-webkit-transition: all 0.2s ease-in;
 	-o-transition: all 0.2s ease-in;
 	transition: all 0.2s ease-in;
+	width: 230px;
 }
 
 .professor .foto .overlay:hover,
@@ -430,6 +434,7 @@ ul.setas li
   	text-transform: uppercase;
   	font-size: 20px;
   	padding-left: 75px;
+  	padding-bottom: 10px;
 }
 
 section.disciplinas span.seta 
@@ -746,4 +751,6 @@ section.footer
 	 padding-bottom: 65px;
 
 }
-
+.autor{
+	
+}
