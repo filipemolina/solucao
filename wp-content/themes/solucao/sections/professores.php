@@ -84,7 +84,8 @@
 				<p class="cargo fonte-cinza">Professora de Português e Literatura</p>
 				<div class="formacao fonte-cinza">
 					<p>Graduado em Letras, Português e Literatura pela Universidade Federal do Piauí.</p>
-					<p>Possui especialização em Docência Superiro pela Faculdade Santo Augustinho. Experiência como professora de gramática, leitura e intepretação de texto em diversos colégios.</p>
+					<p>Possui especialização em Docência Superiro pela Faculdade Santo Augustinho.</p> 
+					<p>Experiência como professora de gramática, leitura e intepretação de texto em diversos colégios.</p>
 				</div>
 			</div>
 
@@ -95,7 +96,24 @@
 					<p>Graduado em Ciências Biológicas e Química pela UFRJ.</p>
 					<p>Experiência em empresas de consultoria ambiental e em laboratórios de</p>
 				</div>
-			</div>			
+			</div>
+
+			<div class="professor 4">
+				<h3 class="lato-bold">Natália Romão</h3>
+				<p class="cargo fonte-cinza">Professora de Português</p>
+				<div class="formacao fonte-cinza">
+					<p>Bacharel em Letras pela Universidade Federal do Rio de Janeiro (UFRJ).</p> 
+					<p>Pós-graduada em Educação Especial pela UNIRIO e em Língua Portuguesa pela FEUC.</p>
+				</div>
+			</div>
+
+			<div class="professor 5">
+				<h3 class="lato-bold">Artur Neto</h3>
+				<p class="cargo fonte-cinza">Professor de Física</p>
+				<div class="formacao fonte-cinza">
+					<p>Formado em Física pela Universidade Federal Fluminense (UFF). Pós-graduado em Física pela CEFET.</p>
+				</div>
+			</div>	
 
 		</div>
 
