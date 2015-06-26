@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-	background: #ff0;
+	/*background: #ff0;*/
 }
 
 a, a:link, a:focus, a:visited {

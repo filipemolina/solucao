@@ -23,15 +23,17 @@ $(function() {
 	/////////////////////////////////////////////////////////////////// Slider de Depoimentos
 
     var slider = $('.slider').unslider({
-		speed: 2000,               //  The speed to animate each slide (in milliseconds)
-		delay: 7000,              //  The delay between slide animations (in milliseconds)
-		complete: function() {},  //  A function that gets called after every slide animation
-		keys: true,               //  Enable keyboard (left, right) arrow shortcuts
-		dots: true,               //  Display dot navigation
-		fluid: false              //  Support responsive design. May break non-responsive designs
+		speed: 2000,               
+		delay: 7000,              
+		complete: function() {},  
+		keys: true,               
+		dots: true,               
+		fluid: false              
 	});
 
 	App.slider = slider.data('unslider');
+
+	/////////////////////////////////////////////////////////////////// Slider de Professores
 
 	$("#lista1").als({
 		visible_items: 4,
@@ -44,6 +46,35 @@ $(function() {
 		easing: "linear",
 		direction: "right",
 		start_from: 0
+	});
+
+	/////////////////////////////////////////////////////////////////// Mostrar e esconder informações dos professores
+
+	$("div.fotos li.foto").	click(function(){
+
+		var id = $(this).data('professor');
+
+		// Aumentar a div de info dos professores
+
+		$(".dados-professor").animate(
+		{
+			height : '200px',
+			width : '100%'
+		},
+		200, function(){
+
+			// Ocultar todas as bios
+
+			$("div.dados-professor .professor").css({opacity : '0'});
+			$("div.dados-professor .professor").css({display : 'none'});
+
+			// Mostrar apenas a bio selecionada
+			
+			$('div.dados-professor .professor.' + id).css({ display : 'block' });
+			$('div.dados-professor .professor.' + id).css({ opacity : '1' });
+
+		});
+
 	});
 
 });

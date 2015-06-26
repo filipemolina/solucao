@@ -390,6 +390,7 @@ section.professores
 	color: #5b5b5b;
 	font-style: italic;
 	font-size: 34px;
+	margin-bottom: 5px;
 }
 
 .dados-professor .cargo
@@ -398,6 +399,7 @@ section.professores
  	font-size: 17px;
   	font-style: italic;
   	font-weight: 700;
+  	margin-bottom: 10px;
 }
 
 .dados-professor .formacao
@@ -408,6 +410,16 @@ section.professores
 .dados-professor .formacao p
 {
 	font-size: 17px;
+}
+
+.dados-professor .professor 
+{ 
+	opacity: 0; 
+	display: none; 
+
+	-webkit-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
 }
 
 /*************************************** Disciplinas **************************************/
